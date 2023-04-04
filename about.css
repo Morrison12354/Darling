@@ -1,0 +1,437 @@
+p {
+  color: #1e1e1e;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+* {
+  transition: 1s ease all;
+}
+/*////////////////////////////// head////////////////////////////// */
+.head {
+  border-bottom: 2px solid #454343;
+  box-shadow: 2px 1px 10px 1px #454343;
+}
+
+.head-wrapper {
+  background-color: #efede8 !important;
+  background: url(./ab-bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  padding-bottom: 50px;
+}
+.head a {
+  text-decoration: none;
+  font-weight: 700;
+  color: aliceblue;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.head-text {
+  background-color: #ffd4dfbf;
+  border: 0.5px solid;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* //////////////////////////about/////////////////////////// */
+.about {
+  background: linear-gradient(
+    90deg,
+    rgb(0, 166, 255),
+    rgb(255, 0, 0),
+    rgb(0, 166, 255)
+  );
+
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0px;
+  }
+
+  25% {
+    background-position-x: 400px;
+  }
+
+  50% {
+    background-position-x: 800px;
+  }
+
+  80% {
+    background-position-x: 1280px;
+  }
+
+  100% {
+    background-position-x: 1600px;
+  }
+}
+
+.back img {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 50px;
+  margin-top: -15px;
+  margin-left: -130px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  margin-top: -20px;
+}
+
+.about-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-inner {
+  padding: 55px 50px;
+  padding-top: 25px !important;
+}
+
+.about-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.about-glav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-name {
+  width: 50%;
+  color: #ffffff;
+  padding-left: 25px;
+}
+
+.about-flex img {
+  width: 450px;
+  border: 2px solid #1c434d;
+  border-radius: 55px;
+}
+
+#about h1 {
+  font-size: 2.5rem;
+}
+
+.about-text p {
+  padding-bottom: 15px;
+  color: aliceblue;
+}
+
+/* //////////////////////////opci//////////////////////////////// */
+.name-subtitle {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  color: azure;
+}
+
+.section-title {
+  font-size: 45px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+  color: azure;
+  text-decoration: none;
+}
+
+.term__inner {
+  background: url(./city.jpg);
+  background-size: cover;
+  padding-bottom: 25px;
+}
+
+.term {
+  border-top: 2px #3d4381 solid;
+}
+
+.term .particle {
+  top: 100px;
+}
+.term__cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.term__card {
+  padding: 40px 30px;
+  flex-basis: 50%;
+  max-width: 384px;
+  border-radius: 10px;
+  border: 1px solid #ededed;
+  background-color: #fff8e5;
+  border: 3px solid #c1c1c1;
+}
+
+.term__card-head {
+  display: flex;
+  column-gap: 15px;
+  margin-bottom: 32px;
+}
+.term__card-logo {
+  width: 400px;
+  margin-left: -6px;
+}
+.term__card-title {
+  font-size: 22px;
+  color: #313131;
+  font-weight: 500;
+}
+.term__card-description {
+  font-size: 15px;
+  color: #514040;
+}
+/* //////////////////////////vid//////////////////////////// */
+
+#video {
+  background: linear-gradient(
+    90deg,
+    rgb(159, 159, 197),
+    rgb(128, 203, 221),
+    rgb(159, 159, 197)
+  );
+  animation: vidcam 20s linear infinite;
+}
+
+@keyframes vidcam {
+  0% {
+    background-position-x: 0px;
+  }
+
+  25% {
+    background-position-x: 400px;
+  }
+
+  50% {
+    background-position-x: 800px;
+  }
+
+  80% {
+    background-position-x: 1280px;
+  }
+
+  100% {
+    background-position-x: 1600px;
+  }
+}
+
+.video-wrapper {
+  width: 79%;
+  margin: 0 auto;
+  padding-top: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.video-container {
+  margin-left: 25px;
+  background: linear-gradient(rgba(0, 0, 0, 42%), rgba(0, 0, 0, 42%)),
+    url(./hiro-002.jpg);
+  background-size: 100% 500px;
+  border-radius: 24px;
+  width: 720px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.video-element {
+  padding: 25px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.video-description {
+  text-align: center;
+  color: rgb(175 184 255);
+  padding-bottom: 35px;
+}
+.video-description h1 {
+  position: relative;
+  bottom: 30px;
+  font-size: 2rem;
+  color: #ff1414;
+}
+
+.video-bot {
+  padding-left: 160px;
+  width: 79%;
+  padding-bottom: 55px;
+}
+
+.play-button img {
+  width: 120px;
+}
+.play-button {
+  display: inline-block;
+  border: 2px solid white;
+  padding-inline: 20px;
+  border-radius: 48px;
+}
+.play-button:hover {
+  display: inline-block;
+  border: 2px solid white;
+  padding-inline: 25px;
+  padding-block: 10px;
+  border-radius: 48px;
+}
+.hidden {
+  display: none;
+}
+.hide {
+  display: none;
+}
+.modal-canvas {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.modal-close {
+  cursor: pointer;
+  position: fixed;
+  text-align: right;
+  color: white;
+  padding-left: 1000px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-bars {
+  display: none;
+  font-size: 1.5rem;
+}
+.mobile-logo {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+.about-first {
+  display: none;
+}
+@media (max-width: 720px) {
+  .head-wrapper {
+    background: url(./ab-bg-med.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    padding-bottom: 50px;
+  }
+  .about-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-flex img {
+    margin-left: -84px;
+  }
+  #about img {
+    width: auto;
+    border: 2px solid #1c434d;
+    border-radius: 15px;
+  }
+  .about-name {
+    width: 100%;
+  }
+
+  .about-first {
+    display: flex;
+  }
+  .about-2 {
+    display: none;
+  }
+  .about-text p {
+    padding-bottom: 15px;
+
+    color: aliceblue;
+  }
+  .video-description h1,
+  h2 {
+    font-size: 17px;
+  }
+  .video-description h2 {
+    font-size: 15px;
+    width: 180px !important;
+  }
+  .video-container {
+    margin-left: 25px;
+    background: linear-gradient(rgba(0, 0, 0, 42%), rgba(0, 0, 0, 42%)),
+      url(./hiro-002.jpg);
+    background-size: 100% 500px;
+    border-radius: 24px;
+    width: 348px;
+    height: 242px;
+    align-items: center;
+  }
+  .video-description h1 {
+    position: relative;
+    bottom: 0px;
+    color: #ff1414;
+  }
+  .video-bot {
+    margin: 0 auto;
+    padding-left: 0;
+    width: 79%;
+    padding-bottom: 55px;
+  }
+  .video-wrapper {
+    width: 79%;
+    margin: 0 auto;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  video {
+    margin: 0px;
+  }
+  .back img {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 50px;
+    margin-top: -15px;
+    margin-left: -35px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    margin-top: -160px;
+  }
+}
